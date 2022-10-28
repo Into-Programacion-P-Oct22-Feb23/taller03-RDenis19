@@ -16,6 +16,14 @@ public class Ejercicio03 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("-------------");
+        System.out.println(Math.pow(10, 6));
+        
+        System.out.println("-------------");
+        System.out.println(Math.sqrt(16));
+        
+        System.out.println("-------------");
+        System.out.println(20 / (1 + 11));
         
     }
     
