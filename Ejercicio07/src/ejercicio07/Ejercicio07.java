@@ -25,12 +25,11 @@ public class Ejercicio07 {
         int var8 = 25;
         int var9 = 100;
         
-       boolean val = Math.sqrt(var1) + (var2/var3) == var4) ||; 
-       boolean val = valor (var5 < var6) && ((var7/var8) + Math.sqrt(var9));
+       double valor = Math.sqrt(var1) + var2 / var3; 
+       boolean val = valor == var4 || (var5 > var6);  
+       boolean a = val && (var7 / var8) + var9; 
        
-       System.out.println(val);
-       
-        
+       System.out.println(a);   
     }
     
 }

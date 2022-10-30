@@ -22,8 +22,8 @@ public class Ejercicio06 {
         int var5 = 10;
         int var6 = 1;
         
-        double val = (Math.sqrt(var1) + var2/var3 == var4);
-        boolean val = && (var5 > var6);
+        double valor = Math.sqrt(var1) + var2/var3;
+        boolean val = valor == var4 && (var5 > var6); 
         
         System.out.println(val);
     }
